@@ -1,0 +1,62 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TS19-32-06-BK-70-1-SMT-TR-67" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "S" (id 0) (at -3.175 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "TS19-32-06-BK-70-1-SMT-TR-67" (id 1) (at -3.175 -1.27 0)
+      (effects (font (size 1.27 1.27)) (justify top left))
+    )
+    (property "Footprint" "TS19-32-06-BK-70-1-SMT-TR-67:SW_TS19-32-06-BK-70-1-SMT-TR-67" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.02" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Same Sky" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TS19-32-06-BK-70-1-SMT-TR-67_0_0"
+      (circle (center 2.54 0.0) (radius 0.3302)
+        (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 0.0) (xy 2.921 0.0)) (stroke (width 0.1524))
+      )
+      (circle (center -2.54 0.0) (radius 0.3302)
+        (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.08 0.0) (xy -2.921 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 0.635) (xy 0.0 0.635)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.635) (xy 2.54 0.635)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 1.905) (xy 0.0 0.635)) (stroke (width 0.1524))
+      )
+      (pin passive line (at -7.62 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

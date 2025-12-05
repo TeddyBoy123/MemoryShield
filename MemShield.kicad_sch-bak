@@ -1,0 +1,520 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7cc3145b-d134-474e-873d-c592b51eff18")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 116.84 107.95) (xy 116.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0978e020-4b4a-42e5-a111-67a437812996")
+	)
+	(bus
+		(pts
+			(xy 153.67 71.12) (xy 171.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fd2cad-4a82-42dc-908e-df4c89a20de8")
+	)
+	(bus
+		(pts
+			(xy 67.31 86.36) (xy 67.31 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fc1217-186d-4703-ac30-ffba0d68d152")
+	)
+	(bus
+		(pts
+			(xy 130.81 107.95) (xy 130.81 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2adef5b4-2de2-4ee8-ac3d-b65c3eae0751")
+	)
+	(bus
+		(pts
+			(xy 124.46 107.95) (xy 124.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0123ca-9027-4f55-8d7a-409d863398e4")
+	)
+	(bus
+		(pts
+			(xy 86.36 64.77) (xy 106.68 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30bc8172-2acc-4df4-bba3-3309d1a3e0f9")
+	)
+	(bus
+		(pts
+			(xy 86.36 62.23) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2daa1e-bce4-42c2-b4e1-f4227ae8e8b9")
+	)
+	(bus
+		(pts
+			(xy 153.67 73.66) (xy 171.45 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a648c4b-27a1-4554-940e-2aa56cae1fe9")
+	)
+	(bus
+		(pts
+			(xy 121.92 107.95) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550422f6-c57f-42f2-98dd-45ec3d093c1b")
+	)
+	(bus
+		(pts
+			(xy 119.38 107.95) (xy 119.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d724376-590d-45f1-99c3-218fb7246b13")
+	)
+	(bus
+		(pts
+			(xy 137.16 107.95) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4b837f-8c66-4268-bee5-ff4516940e79")
+	)
+	(bus
+		(pts
+			(xy 67.31 149.86) (xy 106.68 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d744263a-0797-4a61-8e6e-cf2c70e043cf")
+	)
+	(sheet
+		(at 171.45 59.436)
+		(size 26.924 27.432)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07b57c6f-bb4e-49e0-be46-1f9a0004bf87")
+		(property "Sheetname" "microphones"
+			(at 171.45 58.7244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microphones.kicad_sch"
+			(at 171.45 87.4526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SAI1{CK1 D[0..3]}" bidirectional
+			(at 171.45 73.66 180)
+			(uuid "7961b4c1-b21a-4cfb-8578-9b1b04a03295")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDF1{CCK0 SDI[0..2]}" bidirectional
+			(at 171.45 71.12 180)
+			(uuid "1062522b-3a0d-46c0-a7ea-cc78a00d7288")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gap9_deck_v2"
+				(path "/7cc3145b-d134-474e-873d-c592b51eff18"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 119.38)
+		(size 47.498 39.624)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6733a746-ebe2-4a0e-8d15-4e21903af6df")
+		(property "Sheetname" "connectors"
+			(at 104.902 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 106.68 159.5886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NINA_UART{RX TX}" bidirectional
+			(at 106.68 149.86 180)
+			(uuid "47759c50-51b0-4f04-8d1d-d500b9cd0ce6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART4{TX RX}" bidirectional
+			(at 119.38 119.38 90)
+			(uuid "4a44336b-d536-48ff-be88-ee22c04a1bf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG{NRST TMS TCK TDI TDO}" bidirectional
+			(at 130.81 119.38 90)
+			(uuid "f771a3c0-1a7f-40ac-9354-37305b7c3ae0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1{MISO MOSI SCK}" bidirectional
+			(at 124.46 119.38 90)
+			(uuid "e3e6086c-2404-4a67-b952-e2ebaf2af6fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDMMC1{D[0..3] CK CMD SW}" bidirectional
+			(at 137.16 119.38 90)
+			(uuid "cd54f51a-1c7f-45ba-b817-d848917e08b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3{SDA SCL}" bidirectional
+			(at 116.84 119.38 90)
+			(uuid "16f5ab2e-4244-4db1-b683-d70c316f5f5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CF{GPIO1 GPIO4}" bidirectional
+			(at 121.92 119.38 90)
+			(uuid "5fd2546e-3231-4709-b21f-9cdc1270cf93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gap9_deck_v2"
+				(path "/7cc3145b-d134-474e-873d-c592b51eff18"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 55.88)
+		(size 46.99 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5ec036b-10a7-4568-a077-d658bc361685")
+		(property "Sheetname" "Core"
+			(at 106.68 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core.kicad_sch"
+			(at 138.938 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NINA{STM_NRST, IO[0..2]}" bidirectional
+			(at 106.68 64.77 180)
+			(uuid "df36225b-5728-48cc-8f47-6c6f7554ff1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG{NRST TMS TCK TDI TDO}" bidirectional
+			(at 130.81 107.95 270)
+			(uuid "4a1ad053-7ba0-49a3-bf34-5b7cf6ce8d23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC1{D[0..3] CK CMD SW}" bidirectional
+			(at 137.16 107.95 270)
+			(uuid "31764fa5-6ab9-4bcb-becb-7b255d89bb45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CF{GPIO1 GPIO4}" bidirectional
+			(at 121.92 107.95 270)
+			(uuid "78e5772d-b633-4894-a4e3-f5a3dbb1fe48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3{SDA SCL}" bidirectional
+			(at 116.84 107.95 270)
+			(uuid "2a13b79d-81dd-47ae-9afa-e575c2f7356e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1{MISO MOSI SCK}" bidirectional
+			(at 124.46 107.95 270)
+			(uuid "d53c5249-2f81-48c4-8fed-5d0de0379136")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART4{TX RX}" bidirectional
+			(at 119.38 107.95 270)
+			(uuid "fdda905d-c2e3-4192-9bcf-e31a975a37bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2{MISO MOSI SCK CS}" bidirectional
+			(at 106.68 62.23 180)
+			(uuid "f35254a3-250a-428c-b3af-2401e8827f6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SAI1{CK1 D[0..3]}" bidirectional
+			(at 153.67 73.66 0)
+			(uuid "1ae9c84e-0d2d-4527-9f16-115a36d47a55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MDF1{CCK0 SDI[0..2]}" bidirectional
+			(at 153.67 71.12 0)
+			(uuid "aa0c7af1-74aa-4ddd-ab6d-0b5c23e600ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gap9_deck_v2"
+				(path "/7cc3145b-d134-474e-873d-c592b51eff18"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.942 53.594)
+		(size 42.418 32.766)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7b3de8d-271a-41de-bba3-77a2afea5ac0")
+		(property "Sheetname" "nina"
+			(at 43.942 52.8824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nina.kicad_sch"
+			(at 43.942 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NINA_UART{RX TX}" bidirectional
+			(at 67.31 86.36 270)
+			(uuid "3544ed1f-6adb-4392-8112-4fa73ac7c6e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NINA{STM_NRST, IO[0..2]}" bidirectional
+			(at 86.36 64.77 0)
+			(uuid "292c4360-9816-46c8-88a2-a855afa034ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2{MISO MOSI SCK CS}" bidirectional
+			(at 86.36 62.23 0)
+			(uuid "cc29ff2b-8952-4cf1-a798-998644df081e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gap9_deck_v2"
+				(path "/7cc3145b-d134-474e-873d-c592b51eff18"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "#")
+		)
+	)
+	(embedded_fonts no)
+)
