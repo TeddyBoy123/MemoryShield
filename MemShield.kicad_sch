@@ -180,7 +180,7 @@
 			)
 		)
 		(instances
-			(project "gap9_deck_v2"
+			(project "MemShield"
 				(path "/7cc3145b-d134-474e-873d-c592b51eff18"
 					(page "5")
 				)
@@ -291,7 +291,7 @@
 			)
 		)
 		(instances
-			(project "gap9_deck_v2"
+			(project "MemShield"
 				(path "/7cc3145b-d134-474e-873d-c592b51eff18"
 					(page "3")
 				)
@@ -432,7 +432,7 @@
 			)
 		)
 		(instances
-			(project "gap9_deck_v2"
+			(project "MemShield"
 				(path "/7cc3145b-d134-474e-873d-c592b51eff18"
 					(page "2")
 				)
@@ -504,7 +504,7 @@
 			)
 		)
 		(instances
-			(project "gap9_deck_v2"
+			(project "MemShield"
 				(path "/7cc3145b-d134-474e-873d-c592b51eff18"
 					(page "6")
 				)

@@ -2155,6 +2155,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "gap9_deck:CMP-00005-5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.016 -1.27 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+				)
+			)
+			(property "Value" "Solder Jumper"
+				(at 1.016 -3.81 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Small Solder Jumper 3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Technology" "SMT"
+				(at -1.016 3.048 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ALTIUM_VALUE" "1"
+				(at -1.016 3.048 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Small{space}Solder{space}Jumper{space}3*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CMP-00005-5_1_0"
+				(rectangle
+					(start 1.016 1.27)
+					(end -1.016 0.254)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 0 0 128 1)
+					)
+				)
+				(rectangle
+					(start 1.016 -0.254)
+					(end -1.016 -1.27)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 0 0 128 1)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "gap9_deck_v2-altium-import:3V3_BAR"
 			(power)
 			(exclude_from_sim no)
@@ -2381,6 +2530,131 @@
 						)
 					)
 					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3387,6 +3661,12 @@
 		(uuid "1cb541cb-3b1a-4253-a0b5-c504966be361")
 	)
 	(junction
+		(at 26.67 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ce47305-e6f9-447e-80c6-780cdfc38b66")
+	)
+	(junction
 		(at 175.26 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3397,12 +3677,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "464a395c-15c6-40ce-91be-0c3f02f17825")
-	)
-	(junction
-		(at 26.67 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ab8dd55-c416-4abe-a119-79031148b072")
 	)
 	(junction
 		(at 175.26 148.59)
@@ -3655,6 +3929,16 @@
 		)
 		(uuid "03774bfa-8446-4489-b3d1-d8abee434d86")
 	)
+	(wire
+		(pts
+			(xy 231.14 41.91) (xy 231.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043f6fc4-e2ad-4c34-a154-7f1da57ef78a")
+	)
 	(bus
 		(pts
 			(xy 218.44 63.5) (xy 218.44 66.04)
@@ -3837,6 +4121,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 40.64) (xy 237.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df73527-8c84-4bb2-a1b6-7bee49688860")
+	)
+	(wire
+		(pts
 			(xy 175.26 123.19) (xy 175.26 125.73)
 		)
 		(stroke
@@ -3964,6 +4258,16 @@
 			(type default)
 		)
 		(uuid "5d6bbab2-ed4c-4c8a-acd7-7035067222d5")
+	)
+	(wire
+		(pts
+			(xy 248.92 40.64) (xy 248.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6b6fc6-1f7b-4181-8019-270982ae9ee7")
 	)
 	(wire
 		(pts
@@ -4127,6 +4431,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 40.64) (xy 248.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d364c64-0112-4367-b388-0321824c7af6")
+	)
+	(wire
+		(pts
 			(xy 175.26 135.89) (xy 175.26 138.43)
 		)
 		(stroke
@@ -4224,16 +4538,6 @@
 			(type default)
 		)
 		(uuid "b5dc48b2-9dac-4ec4-93f5-8bd78cad4f4e")
-	)
-	(wire
-		(pts
-			(xy 200.66 27.94) (xy 205.74 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e4cab0-dbe3-44b2-9e6e-db7e2ce2faa0")
 	)
 	(wire
 		(pts
@@ -5094,6 +5398,71 @@
 		)
 	)
 	(symbol
+		(lib_id "gap9_deck_v2-altium-import:3V3_BAR")
+		(at 231.14 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "300c06bf-89c1-45f5-97ee-0481541f56e3")
+		(property "Reference" "#PWR047"
+			(at 231.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 231.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name '3V3'"
+			(at 231.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "580ff022-f057-45fd-a9ca-24f19f65ff2a")
+		)
+		(instances
+			(project "MemShield"
+				(path "/7cc3145b-d134-474e-873d-c592b51eff18/d7b3de8d-271a-41de-bba3-77a2afea5ac0"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dk_LED-Indication-Discrete:LTST-C190KSKT")
 		(at 115.57 31.75 180)
 		(unit 1)
@@ -5543,6 +5912,72 @@
 			(project "gap9_deck_v2"
 				(path "/7cc3145b-d134-474e-873d-c592b51eff18/d7b3de8d-271a-41de-bba3-77a2afea5ac0"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 248.92 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70e945cc-b1fe-42be-b43c-5b273d94ee10")
+		(property "Reference" "#PWR051"
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VNINA"
+			(at 248.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 248.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be0e053-5094-40e7-9f3b-961da8d66ac6")
+		)
+		(instances
+			(project "MemShield"
+				(path "/7cc3145b-d134-474e-873d-c592b51eff18/d7b3de8d-271a-41de-bba3-77a2afea5ac0"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6233,33 +6668,32 @@
 		)
 	)
 	(symbol
-		(lib_id "gap9_deck_v2-altium-import:3V3_BAR")
-		(at 26.67 77.47 180)
+		(lib_id "gap9_deck:CMP-00005-5")
+		(at 240.03 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a3f9ee1d-882f-4682-bf76-9ac536977174")
-		(property "Reference" "#PWR062"
-			(at 26.67 77.47 0)
+		(uuid "8bc5e5d6-16c7-4a8a-b231-424083bf3f4b")
+		(property "Reference" "J18"
+			(at 239.776 43.688 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 26.67 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.6256 1.6256)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 26.67 77.47 0)
+		(property "Value" "Solder Jumper"
+			(at 240.03 37.338 90)
+			(effects
+				(font
+					(size 1.3208 1.3208)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 240.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +6702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 77.47 0)
+			(at 240.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,8 +6710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name '3V3'"
-			(at 26.67 77.47 0)
+		(property "Description" ""
+			(at 240.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,13 +6719,36 @@
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "326ffcf2-9455-4831-b566-05c373dc8de9")
+		(property "Technology" "SMT"
+			(at 236.982 41.656 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1"
+			(at 236.982 41.656 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b71849e2-0d35-4253-99d2-b6887d5d6f16")
+		)
+		(pin "1"
+			(uuid "0e76d4e4-4992-494d-b84a-d168b5d2945e")
 		)
 		(instances
-			(project "gap9_deck_v2"
+			(project "MemShield"
 				(path "/7cc3145b-d134-474e-873d-c592b51eff18/d7b3de8d-271a-41de-bba3-77a2afea5ac0"
-					(reference "#PWR062")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -6367,6 +6824,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 205.74 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2532ba5-70f4-44ec-8459-1b999b0bb04a")
+		(property "Reference" "#PWR053"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VNINA"
+			(at 205.74 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 205.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a3e5457-b0d3-468d-86c1-fc88614600fd")
+		)
+		(instances
+			(project "MemShield"
+				(path "/7cc3145b-d134-474e-873d-c592b51eff18/d7b3de8d-271a-41de-bba3-77a2afea5ac0"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "gap9_deck_v2-altium-import:GND_POWER_GROUND")
 		(at 26.67 87.63 0)
 		(unit 1)
@@ -6426,6 +6949,72 @@
 			(project "gap9_deck_v2"
 				(path "/7cc3145b-d134-474e-873d-c592b51eff18/d7b3de8d-271a-41de-bba3-77a2afea5ac0"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 26.67 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b352ba39-54cc-47c7-8c99-8ffd30832732")
+		(property "Reference" "#PWR050"
+			(at 26.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VNINA"
+			(at 26.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc9a5fc2-f598-4b5f-98a3-c1da0ee4c340")
+		)
+		(instances
+			(project "MemShield"
+				(path "/7cc3145b-d134-474e-873d-c592b51eff18/d7b3de8d-271a-41de-bba3-77a2afea5ac0"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6564,71 +7153,6 @@
 			(project "gap9_deck_v2"
 				(path "/7cc3145b-d134-474e-873d-c592b51eff18/d7b3de8d-271a-41de-bba3-77a2afea5ac0"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "gap9_deck_v2-altium-import:3V3_BAR")
-		(at 200.66 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce05c4b5-8b7b-4efb-85ec-712b79940064")
-		(property "Reference" "#PWR067"
-			(at 200.66 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 200.66 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name '3V3'"
-			(at 200.66 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "a140100a-8300-4401-90ab-8c0d7d333d1e")
-		)
-		(instances
-			(project "gap9_deck_v2"
-				(path "/7cc3145b-d134-474e-873d-c592b51eff18/d7b3de8d-271a-41de-bba3-77a2afea5ac0"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
