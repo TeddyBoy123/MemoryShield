@@ -1,18 +1,18 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,9.0.5*%
-%TF.CreationDate,2026-01-01T18:24:35+01:00*%
-%TF.ProjectId,MemShield,4d656d53-6869-4656-9c64-2e6b69636164,rev?*%
-%TF.SameCoordinates,Original*%
-%TF.FileFunction,Profile,NP*%
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,9.0.5*
+G04 #@! TF.CreationDate,2026-01-10T11:05:36+01:00*
+G04 #@! TF.ProjectId,MemShield,4d656d53-6869-4656-9c64-2e6b69636164,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.5) date 2026-01-01 18:24:35*
+G04 Created by KiCad (PCBNEW 9.0.5) date 2026-01-10 11:05:36*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%TA.AperFunction,Profile*%
+G04 #@! TA.AperFunction,Profile*
 %ADD10C,0.100000*%
-%TD*%
+G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
 X153490100Y-87016820D02*
